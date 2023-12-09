@@ -1,0 +1,33 @@
+.filled{
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    height: 2.4rem;
+    top: 0rem;
+    z-index: 3;
+}
+.outlined{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 12rem;
+    height: 2.5;
+    top: -2.4rem;
+    left: 0rem;
+    opacity: 1;
+    z-index: 0;
+    overflow: hidden;   
+}
+.star{
+    display: flex;
+    resize: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #ffbf00;
+}
+
+.containerFilled{
+    display: block;
+    height: 2.4rem;
+    overflow: hidden;
+}

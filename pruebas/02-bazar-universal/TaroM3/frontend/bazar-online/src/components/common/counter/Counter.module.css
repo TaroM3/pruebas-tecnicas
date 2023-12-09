@@ -1,0 +1,45 @@
+.container{
+    background: linear-gradient(-45deg, var(--color-tertiary), var(--color-quinary));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 15.2rem;
+    height: 5.2rem;
+    font-size: 1.7rem;
+}
+.counter{
+    display: flex;
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--color-main);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-primary);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+button {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    width: 5rem;
+    height: 4.8rem;
+}
+.left{
+    border-radius: 1rem 0 0 1rem;
+}
+.left:hover{
+    box-shadow: 0 0 1rem .01rem var(--color-quinary);
+    color: var(--color-quinary);
+    transition: box-shadow .5s ease-in-out;
+}
+.right {
+    border-radius: 0 1rem 1rem 0;
+}
+.right:hover {
+    color: var(--color-tertiary);
+    box-shadow: 0 0 1rem .01rem var(--color-tertiary);
+    transition: box-shadow .5s ease-in-out;
+}

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: var(--color-main);
+}
+:root {
+  font-family: Roboto, Helvetica Neue, Helvetica,Tahoma,Arial, PingFang SC, Microsoft YaHei;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Palette */
+  /* #ff6a00, #9bc1bc, #5ca4a9,  */
+  /* --color-main: #ff6a00;
+  --color-primary: #ffe6e8;
+  --color-secondary: #080708;
+  --color-tertiary: #333;
+  --color-quaternary: #666; */
+  --color-main: #0c0c0c;
+  --color-primary: #fff;
+  --color-secondary: #000;
+  --color-tertiary: #69dc9e;
+  --color-quaternary: #666;
+  --color-quinary: #E56399;
+
+  --gradient: linear-gradient(90deg, rgba(229, 99, 153, 1) 0%, rgba(105, 220, 158, 1) 100%);
+
+}
+
+html{
+  font-size: 62.5%;
+}
+
+

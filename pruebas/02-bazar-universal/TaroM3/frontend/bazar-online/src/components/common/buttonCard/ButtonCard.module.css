@@ -1,0 +1,24 @@
+.btn{
+    cursor: pointer;
+    width: 12rem;
+    height: 5rem;
+    padding: .5rem;
+    font-size: 2rem;
+    background-color: var(--color-main);
+    border-radius: 1rem 1rem;
+    color: var(--color-primary);
+    & a{
+        color: var(--color-primary);
+    }
+
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid .1rem var(--color-tertiary); */
+    border-radius: 1rem 1rem;
+    width: 12.2rem;
+    height: 5.2rem;
+    background: linear-gradient(-45deg, var(--color-tertiary), var(--color-quinary));
+}

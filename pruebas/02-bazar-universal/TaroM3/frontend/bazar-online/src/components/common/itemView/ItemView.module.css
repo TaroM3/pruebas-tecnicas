@@ -1,0 +1,41 @@
+.viewContainer {
+    display: flex;
+    width: 42rem;
+    height: 54rem;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: var(--color-main);
+    color: var(--color-primary);
+    overflow: hidden;
+}
+.asideThumbnails{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: .68rem;
+    & img{
+        display: flex;
+        border-radius: 1rem;
+        height: 10rem;
+        width: 10rem;
+        cursor: pointer;    
+    }
+}
+
+.asideContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainThumbnail {
+    display: flex;
+    width: 42rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    overflow: hidden;
+    border-radius: 1rem;
+    & img{    
+        height: 40rem;
+    }
+}
